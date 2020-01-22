@@ -13,6 +13,10 @@ namespace TravailAgile
 
         }
 
+        /// <summary>
+        /// Permet d'afficher les détails d'une carte en substituant valet, dame ou roi selon la valeur.
+        /// </summary>
+        /// <param name="carte">Représente une carte à jouer</param>
         static void Afficher(ICarte carte)
         {
             string valeurCarte = "";
